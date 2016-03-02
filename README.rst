@@ -19,6 +19,6 @@ Quick start
 
     url(r'^heroku/', include('psihook_heroku.urls')),
 
-3. Add your hook to Heroku
+3. Add your hook to Heroku::
 
     heroku addons:create deployhooks:http --url=https://mypsihook.herokuapp.com/heroku
