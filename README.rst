@@ -1,7 +1,9 @@
+.. image:: https://img.shields.io/travis/sibson/psihook-plugin-heroku.svg   :target: https://travis-ci.org/sibson/psihook-plugin-heroku
+
 PsiHook Heroku
 ===============
 
-PsiHook Heroku is a simple [PsiHook](https://github.com/sibson/psihook) plugin that can be used to intergrate with [Heroku Deployhooks](https://devcenter.heroku.com/articles/deploy-hooks#http-post-hook) .
+PsiHook Heroku is a simple `PsiHook <https://github.com/sibson/psihook>`_ plugin that can be used to intergrate with `Heroku Deployhooks <https://devcenter.heroku.com/articles/deploy-hooks#http-post-hook>`_ .
 
 Quick start
 -----------
@@ -19,4 +21,4 @@ Quick start
 
 3. Add your hook to Heroku
 
-    heroku addons:create deployhooks:http --url=https://exmaple.com/heroku
+    heroku addons:create deployhooks:http --url=https://mypsihook.herokuapp.com/heroku
